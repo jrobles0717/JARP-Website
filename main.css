@@ -1,0 +1,201 @@
+:root {
+    --green: #0f0;
+    --white: #fff;
+    --black: #000;
+    
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+.header {
+    text-align: center;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+.paragraph {
+    line-height: 1.6;
+    text-align: left;
+    margin: 90px 120px 30px;
+    font-family: serif;
+    font-size: 20px;
+    text-indent: 60px;
+}
+
+.profpic {
+    display: table-cell;
+    height: 400px;
+    text-align: center;
+    width: 600px;
+    vertical-align: middle;
+    margin-left: 400px;
+    border-radius: 50%;
+}
+
+.roleJob {
+    font-family: serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+    margin: 10px;
+}
+
+.paragraphAbout {
+    text-indent: 60px;
+    
+}
+
+.spaces img {
+    width: 50px;
+    animation: space 5s linear infinite;
+}
+
+.spaces {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -400px;
+}
+
+@keyframes space{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateY(-160vh);
+        opacity: 0;
+    }
+}
+
+.spaces img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+    border-radius: 50px;
+}
+.spaces img:nth-child(2){
+    animation-delay: 3s;
+    width: 15px;
+    border-radius: 50px;
+}
+.spaces img:nth-child(3){
+    animation-delay: 2.5s;
+    width: 25px;
+    border-radius: 50px;
+}
+.spaces img:nth-child(4){
+    animation-delay: 1s;
+    width: 10px;
+    border-radius: 50px;
+}
+.spaces img:nth-child(5){
+    animation-delay: 4s;
+    width: 30px;
+    border-radius: 50px;
+}
+.spaces img:nth-child(6){
+    animation-delay: 5.5s;
+    width: 15px;
+    border-radius: 50px;
+}
+.spaces img:nth-child(7){
+    animation-delay: 3.5s;
+    width: 20px;
+    border-radius: 50px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.fa-instagram {
+    background: #ff0833;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+body {
+    background: var(--bg);
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+    margin-bottom: 10px;
+}
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+.btn:focus { outline-style: none;}
