@@ -43,7 +43,7 @@
 
 .about {
     text-align: center;
-    margin: 10px;
+    margin: 80px;
 }
 
 .paragraphAbout {
@@ -137,6 +137,7 @@
   border-radius: 50%;
   width: 25px;
   height: 25px;
+  margin-left: 10%;
 }
 
 .fa-instagram {
@@ -145,6 +146,7 @@
     border-radius: 50%;
     width: 25px;
     height: 25px;
+    margin: 10px;
   }
 
 .fa-linkedin {
@@ -153,6 +155,21 @@
     border-radius: 50%;
     width: 25px;
     height: 25px;
+    margin: 10px;
+}
+
+.fa-github {
+    background: white;
+    color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+.contact {
+    font-family: serif;
+    margin-left: 10%;
 }
 
 body {
