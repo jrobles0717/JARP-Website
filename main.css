@@ -25,6 +25,15 @@
     text-indent: 60px;
 }
 
+.resume {
+    text-align: right;
+    margin-left: 41%;
+    margin-bottom: 20%;
+    color: red;
+    font-style: oblique;
+    font-size: large;
+}
+
 .profpic {
     display: table-cell;
     height: 400px;
@@ -159,7 +168,7 @@
 }
 
 .fa-github {
-    background: white;
+    background: #d3d3d3;
     color: black;
     border-radius: 50%;
     width: 25px;
@@ -187,10 +196,11 @@ li {
 .list {
     list-style: square;
     margin-bottom: 10px;
+    margin-left: 7%;
 }
 
 .light-theme {
-    --bg: var(--green);
+    --bg: var(var(--white));
     --fontColor: var(--black);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
