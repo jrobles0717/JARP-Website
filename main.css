@@ -11,9 +11,58 @@
 }
 
 .header {
-    text-align: center;
+    background-color: #fff36d;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #fff36d;
+    padding: 20px;
+}
+
+.footerText {
+    text-align: left;
+}
+
+.footerText2 {
+    text-align: right;
+}
+
+.footerTab {
+    justify-content: center;
+}
+
+/* .logo {
+    margin-left: 45%;
+    font-size: 30px;
+    margin-bottom: 10%;
+    font-family: "Times New Roman";
+} */
+
+.logo {
+    margin-left: 5%;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: "Times New Roman";
+
+}
+
+.header-right {
+    padding-left: 25%;
+    
+}
+
+.headerTab {
+    padding-right: 5%;
+    font-family: serif;
+}
+
+.headerName {
+    text-align: left;
     text-decoration: underline;
     font-family: fantasy;
+    margin-top: 100px;
+    padding: 5%;
 }
 
 .paragraph {
@@ -28,31 +77,75 @@
 .resume {
     text-align: right;
     margin-left: 41%;
-    margin-bottom: 40%;
     color: red;
     font-style: oblique;
     font-size: large;
 }
 
+.headerPic {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 .profpic {
-    display: table-cell;
-    height: 400px;
-    text-align: center;
-    width: 600px;
-    vertical-align: middle;
-    margin-left: 400px;
-    border-radius: 50%;
+    height: 300px;
+    width: 500px;
+    border-radius: 25%;
+    padding: 5%;
 }
 
 .roleJob {
     font-family: serif;
     font-size: 15px;
-    text-align: center;
+    margin-left: 130px;
+}
+
+.picRole {
+
+}
+
+.iconLan {
+    display: block;
+    margin-left: auto;
+    width: 60%;
+    
+}
+
+.icon {
+    width: 15%;
+    height: 15%;
+}
+
+.languagues {
+   
+}
+
+.languageHeader {
+    display: table;
+}
+
+.java {
+    width: 10%;
+    height: 10%;
+}
+
+.javascript {
+    width: 10%;
+    height: 10%;
+}
+
+.python {
+    width: 10%;
+    height: 10%;
 }
 
 .about {
     text-align: center;
     margin: 80px;
+    font-family: fantasy;
 }
 
 .paragraphAbout {
@@ -201,7 +294,7 @@ li {
 
 .listHeader {
     margin-left: 5%;
-    margin-bottom: 10px;
+    padding-top: 80px;
 }
 
 .light-theme {
@@ -213,7 +306,7 @@ li {
 
 .dark-theme {
     --bg: var(--black);
-    --fontColor: var(--green);
+    --fontColor: #fff00f;
     --btnBg: var(--white);
     --btnFontColor: var(--black);
 }
@@ -222,12 +315,13 @@ li {
     position: absolute;
     top: 20px;
     right: 20px;
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     border: none;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
+    font-size: 1rem;
 }
 
 .btn:focus { outline-style: none;}

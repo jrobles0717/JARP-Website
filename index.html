@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
     <title>John Robles website</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body class="light-theme">
-    <h1 class="header">Hi, I'm John Robles.</h1>
+
+    <div class="header">
+        <a class="logo">JARP Website</a>
+        <div class="header-right">
+            <a class="headerTab" href="#passion">My Passion</a>
+            <a class="headerTab" href="#about">About Me</a>
+            <a class="headerTab" href="#experience">Experience</a>
+            <a class="headerTab" href="#skills">Achievements & Personal Skills</a>
+            <a class="headerTab" href="#contact">Contact & Social Media</a>
+            <a class="headerTab" href="#resume">Resume</a>
+        </div>
+    </div>
+
+    <div class="headerPic">
+        <h1 class="headerName">Hi, I'm John Robles.</h1>
+        <div class="picRole">
+            <img class="profpic" src="images/JARP.jpg">
+            <h3 class="roleJob">Software Engineering & Full Stack Developer</h3>
+        </div>
+    </div>
+    
     <br>
     <br>
     <br>
     <br>
-    <img class="profpic" src="images/JARP.jpg">
-    <h3 class="roleJob">Software Engineering & Full Stack Developer</h3>
+    <h2 id="passion" class="about">My Passion</h2>
     <p class="paragraph">Hello everyone, my name is John A. Robles Perez. I am 25 years old and currently a Software Engineering student at the 
         University of Puerto Rico - Mayagüez which is the top one in Engineering around Puerto Rico and also all over 
         United State always has been one of the greatest. Moreover, I have more than 4 years programming and developing
@@ -27,7 +48,7 @@
 
     </p>
     <br>
-    <h2 class="about">About Me</h2>
+    <h2 id="about" class="about">About Me</h2>
     <p class="paragraph">My passion about the technology was since my childhood because I just wanted to play electronic games by that time. Then, 
         I grew up and fell in love about videogames as well as soccer. At the age of 8, my mom started to take me play soccer and 
         the rest is history. Been part of the best team by those time in Puerto Rico called Islanders, then the name changed to Bayamon FC, 
@@ -38,19 +59,33 @@
         the technology and now I am about to be a Software Engineering, thank to all the sacrifices and lessons that lifes teach me through 
         the path.</p>
 
-    <h2 class="about">Experience</h2>
+    <h2 id="experience" class="about">Experience</h2>
     <h3 class="listHeader">Languages</h3>
-    <ul>
-        <li class="list">Java</li>
-        <li class="list">JavaScript</li>
-        <li class="list">Python</li>
-        <li class="list">HTML</li>
-        <li class="list">CSS</li>
-        <li class="list">C</li>
-        <li class="list">PostgreSQL</li>
-        <li class="list">SQLite</li>
-    </ul>
+    <div class="languageHeader">
+        <div class="iconLan">
+            <img class="icon" src="images/java-icon-images-6.jpg">
+            <img class="icon" src="images/javascript--v1.png">
+            <img class="icon" src="images/333-3336903_python-language-icon-python-programming-language-icon.png.jpeg">
+        </div>
+        <div class="languagues">
+            <ul>
+                <li class="list">Java</li>
+                <li class="list">JavaScript</li>
+                <li class="list">Python</li>
+                <li class="list">HTML</li>
+                <li class="list">CSS</li>
+                <li class="list">C</li>
+                <li class="list">PostgreSQL</li>
+                <li class="list">SQLite</li>
+            </ul>
+        </div>
+    </div>
     <h3 class="listHeader">Frameworks</h3>
+    <div class="iconLan">
+        <img class="icon" src="images/430-4309307_react-js-transparent-logo-hd-png-download.png.jpeg">
+        <img class="icon" src="images/kisspng-android-studio-mobile-app-development-studio-logo-5b30df8d235306.2910428315299296131447.jpg">
+        <img class="icon" src="images/68747470733a2f2f70726f642d616362352e6b7863646e2e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031382f30322f737072696e672d626f6f742d69636f6e2d323030783139362e706e67.png">
+    </div>
     <ul>
         <li class="list">React.js</li>
         <li class="list">React Native</li>
@@ -61,23 +96,38 @@
         <li class="list">Bootstrap</li>
     </ul>
     <h3 class="listHeader">Run Time Environment</h3>
+    <div class="iconLan">
+        <img class="icon" src="images/node-js-javascript-web-application-express-js-computer-software-png-favpng-cYmJvJyBDcTNbLdSRdNAceLyW.jpg">
+        <img class="icon" src="images/imgbin-web-development-express-js-javascript-software-framework-laravel-world-wide-web-8PgLarTvZmDHKXEwSZei8dphU.jpg">
+    </div>
     <ul>
         <li class="list">Node.js</li>
+        <li class="list">Express.js</li>
     </ul>
     <h3 class="listHeader">Platforms</h3>
+    <div class="iconLan">
+        <img class="icon" src="images/247-2471508_windows-10-png-icons-phone-icon-in-blue.png">
+        <img class="icon" src="images/linux-icon-19.png">
+        <img class="icon" src="images/png-clipart-macbook-pro-macos-high-sierra-macos-sierra-content-text-computer.png">
+    </div>
     <ul>
         <li class="list">Windows</li>
         <li class="list">Linux</li>
         <li class="list">Mac OS</li>
     </ul>
     <h3 class="listHeader">Source Control</h3>
+    <div class="iconLan">
+        <img class="icon" src="images/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png">
+        <img class="icon" src="images/GitHub-logo.png">
+        <img class="icon" src="images/gitlab-10-1175217.png">
+    </div>
     <ul>
         <li class="list">Git</li>
         <li class="list">GitHub</li>
         <li class="list">GitLab</li>
     </ul>
 
-    <h2 class="about">Achievements & Personal Skills</h2>
+    <h2 id="skills" class="about">Achievements & Personal Skills</h2>
     <ul>
         <li class="list">Future Software Engineering - Graduation Day May 2022</li>
         <li class="list">National Soccer Player of Puerto Rico 2011 - 2015</li>
@@ -85,26 +135,35 @@
         <li class="list">Soccer Coach at AFT in Mayaguez, Puerto Rico 2018 - Present</li>
         <li class="list">Musician - Drummer 2011 - Present</li>
     </ul>
-    <div>
-        <button class="btn">Dark</button>
-    </div>
+    <!--<div>
+        <button class="btn">Dark<br>Mode</button>
+        <a href="#" class="btn">Dark</a>
+    </div>-->
 
-    <h2 class="about">Contact & Social Media</h2>
+    <div id="like_button_container"></div>
 
-    <h4 class="contact">Email: john.robles1@upr.edu</h4>
-    <h4 class="contact">Phone Number: 1+(787)460-6052</h4>
+    <h2 id="contact" class="about">Contact & Social Media</h2>
+
+    <a href="mailto:john.robles1@upr.edu" class="contact">Email: john.robles1@upr.edu</a>
+    <a href="tel:+1-787-460-6052" class="contact">Phone Number: 1+(787)460-6052</a>
     <h4 class="contact">Address: Ensanchez Martinez, Las Flores #54 st, Mayagüez, Puerto Rico 00680</h4>
 
     <div>
-        <h2 class="about">Resume</h2>
-        <A class="resume" href="images/John A Robles Perez Resume 2021.pdf" download="John_A_Robles_Perez_Resume">Click here to see my Resume!</A>
+        <h2 id="resume" class="about">Resume</h2>
+        <A class="resume" href="images/John A Robles Perez Resume 2021.pdf" download="John_A_Robles_Perez_Resume" target="_blank">Click here to see my Resume!</A>
     </div>
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <a href="https://www.facebook.com/johnandrew.robles" class="fa fa-facebook"></a>
-    <a href="https://www.instagram.com/j_robles0717/" class="fa fa-instagram"></a>
-    <a href="https://www.linkedin.com/in/john-andrew-robles-perez-b1a85a106/" class="fa fa-linkedin"></a>
-    <a href="https://github.com/jrobles0717" class="fa fa-github"></a>
+    <a href="https://www.facebook.com/johnandrew.robles" class="fa fa-facebook" target="_blank"></a>
+    <a href="https://www.instagram.com/j_robles0717/" class="fa fa-instagram" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/john-andrew-robles-perez-b1a85a106/" class="fa fa-linkedin" target="_blank"></a>
+    <a href="https://github.com/jrobles0717" class="fa fa-github" target="_blank"></a>
 
     <div class="spaces">
         <img src="images/space.jpg">
@@ -116,7 +175,28 @@
         <img src="images/space.jpg">
     </div>
 
+    <div class="footer">
+        <!-- <a class="logo">JARP Website</a> -->
+        <div class="footerTab">
+            <h4 class="footerText">Copy right for JARP Website © 2021</h4>
+            <h4 class="footerText2">Developer by John Robles</h4>
+            <!-- <a class="headerTab" href="#passion">My Passion</a>
+            <a class="headerTab" href="#about">About Me</a>
+            <a class="headerTab" href="#experience">Experience</a>
+            <a class="headerTab" href="#skills">Achievements & Personal Skills</a>
+            <a class="headerTab" href="#contact">Contact & Social Media</a>
+            <a class="headerTab" href="#resume">Resume</a> -->
+        </div>
+    </div>
+
     <script src="app.js"></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
+    <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <!--<script src="like_button.js"></script>-->
 </body>
 </html>
