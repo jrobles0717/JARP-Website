@@ -41,9 +41,11 @@
 
 .logo {
     margin-left: 5%;
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 2vw;
+    margin-top: 10px;
     font-family: "Times New Roman";
+    float: left;
+    width: 20%; /* The width is 20%, by default */
 
 }
 
@@ -55,6 +57,7 @@
 .headerTab {
     padding-right: 5%;
     font-family: serif;
+    font-size: 1.5vw;
 }
 
 .headerName {
@@ -63,6 +66,8 @@
     font-family: fantasy;
     margin-top: 100px;
     padding: 5%;
+    float: left;
+    width: 40%; /* The width is 20%, by default */
 }
 
 .section-0 {
@@ -105,19 +110,22 @@
 
 .profpic {
     height: 300px;
-    width: 500px;
-    border-radius: 25%;
-    padding: 5%;
+    /* width: 500px; */
+    border-radius: 20%;
+    /* padding: 5%; */
+    
 }
 
 .roleJob {
     font-family: serif;
     font-size: 15px;
-    margin-left: 130px;
+    /* margin-left: 130px; */
 }
 
 .picRole {
-
+    float: left;
+    width: 40%; /* The width is 20%, by default */
+    text-align: center;
 }
 
 .iconLan {
@@ -157,7 +165,8 @@
 
 .about {
     text-align: center;
-    margin: 80px;
+    /* margin: 80px; */
+    margin: 5%;
     font-family: fantasy;
 }
 
