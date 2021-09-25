@@ -92,6 +92,19 @@
     text-indent: 60px;
 }
 
+.description-project {
+    line-height: 1.6;
+    text-align: left;
+    margin: 30px 5%;
+    font-family: serif;
+    font-size: 18px;
+    text-indent: 60px;
+}
+
+.portfolio-div {
+    background-color: #f5f5f5;
+}
+
 .resume {
     text-align: right;
     margin-left: 41%;
@@ -111,7 +124,7 @@
 .profpic {
     height: 300px;
     /* width: 500px; */
-    border-radius: 20%;
+    border-radius: 50%;
     /* padding: 5%; */
     
 }
@@ -177,7 +190,7 @@
 
 .spaces img {
     width: 50px;
-    animation: space 5s linear infinite;
+    animation: space 10s linear infinite;
 }
 
 .spaces {
@@ -186,7 +199,7 @@
     align-items: center;
     justify-content: space-around;
     position: absolute;
-    bottom: -400px;
+    bottom: -800;
 }
 
 @keyframes space{
@@ -201,7 +214,7 @@
         opacity: 0.5;
     }
     100%{
-        transform: translateY(-160vh);
+        transform: translateY(-800vh);
         opacity: 0;
     }
 }
@@ -239,6 +252,23 @@
 .spaces img:nth-child(7){
     animation-delay: 3.5s;
     width: 20px;
+    border-radius: 50px;
+}
+.spaces img:nth-child(8){
+    animation-delay: 7s;
+    width: 18px;
+    border-radius: 50px;
+}.spaces img:nth-child(9){
+    animation-delay: 6s;
+    width: 12px;
+    border-radius: 50px;
+}.spaces img:nth-child(10){
+    animation-delay: 8s;
+    width: 14px;
+    border-radius: 50px;
+}.spaces img:nth-child(11){
+    animation-delay: 7.5s;
+    width: 16px;
     border-radius: 50px;
 }
 
@@ -289,6 +319,16 @@
     width: 25px;
     height: 25px;
     margin: 10px;
+}
+
+.fa-github-square {
+    background: #ffb6c1;
+    color: black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: 10px 60px;
+    size: 40px;
 }
 
 .contact {
