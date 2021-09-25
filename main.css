@@ -152,12 +152,13 @@
     height: 15%;
 }
 
-.languagues {
+.languages {
    
 }
 
-.languageHeader {
-    display: table;
+.languageHeader > * {
+    display: inline-block;
+    margin: 5%;
 }
 
 .java {
@@ -334,7 +335,7 @@
 .contact {
     font-family: serif;
     margin-left: 15%;
-    
+    display: inline-block;
 }
 
 body {
