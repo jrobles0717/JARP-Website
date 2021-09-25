@@ -42,7 +42,6 @@
 .logo {
     margin-left: 5%;
     font-size: 2vw;
-    margin-top: 10px;
     font-family: "Times New Roman";
     float: left;
     width: 20%; /* The width is 20%, by default */
@@ -107,7 +106,7 @@
 
 .resume {
     text-align: right;
-    margin-left: 41%;
+    /* margin-left: 41%; */
     color: red;
     font-style: oblique;
     font-size: large;
@@ -292,6 +291,7 @@
   width: 25px;
   height: 25px;
   margin-left: 10%;
+  margin-top: 5%;
 }
 
 .fa-instagram {
@@ -333,7 +333,8 @@
 
 .contact {
     font-family: serif;
-    margin-left: 10%;
+    margin-left: 15%;
+    
 }
 
 body {
